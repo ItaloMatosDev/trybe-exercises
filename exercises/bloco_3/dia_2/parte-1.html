@@ -12,16 +12,38 @@
             font-family: sans-serif;
         }
 
+        body{
+            font-size: 16px;
+        }
+
         ul {
             background-color: blueviolet;
         }
 
         p{
             font-weight: 600;
+            font-size: 3em;
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+        .muda-cor {
+            background-color: rgb(19, 200, 255);
         }
 
-        .muda-cor {
-            background-color: rgb(255, 251, 19);
+        #yellow {
+            background-color: yellow;
+            font-style: oblique;
+            text-decoration: overline;
+        }
+
+        #red {
+            background-color: red;
+            text-decoration: line-through;
+        }
+
+        #brown{
+            background-color: brown;
+            font-style: italic;
+            text-decoration: underline overline;
         }
 
     </style>
@@ -33,11 +55,10 @@
     <p class="muda-cor">Qual é sua cor favorita?</p>
     
     <ul class="muda-cor">
-        <li>Amarelo</li>
-        <li>Vermelho</li>
-        <li>Marrom</li>
+        <li id="yellow">Amarelo</li>
+        <li id="red">Vermelho</li>
+        <li id="brown">Marrom</li>
     </ul>
-
 
 </body>
 </html>
