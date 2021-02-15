@@ -23,20 +23,28 @@
     border: 5px solid black;
 }
 
-
 .super-mario{
     width: 300px;
-    /* position: absolute; */
+    position: absolute;
     z-index: 1;
 }
 
 .goomba {
     width: 300px;
-    /* position: absolute; */
-    top: 520px;
+    position: absolute;
+    top: 420px;
     z-index: 2;
 }
 
 .bowser {
     width: 300px;
+    left: 800px;
+    position: absolute;
 }
+
+.word {
+    left: 500px;
+    font-family: fantasy;
+    position: absolute;
+}
+
