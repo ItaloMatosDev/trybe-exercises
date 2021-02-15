@@ -32,5 +32,6 @@
 .goomba {
     width: 400px;
     position: absolute;
+    top: 520px;
     z-index: 2;
 }
