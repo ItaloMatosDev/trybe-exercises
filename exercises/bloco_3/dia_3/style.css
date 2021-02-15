@@ -66,3 +66,13 @@ h1 {
 p {
     text-align: center;
 }
+
+li:hover{
+    width: auto;
+    transition: 1s;
+    background-color: rgb(153, 0, 255);
+}
+
+li:active {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
