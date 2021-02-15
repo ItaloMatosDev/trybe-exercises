@@ -32,19 +32,29 @@
 .goomba {
     width: 300px;
     position: absolute;
-    top: 420px;
+    top: 520px;
     z-index: 2;
 }
 
 .bowser {
     width: 300px;
     left: 800px;
+    top: 150px;
     position: absolute;
+    z-index: 3;
 }
 
 .word {
-    left: 500px;
+    left: 530px;
+    font-size: 1.5em;
+    top: 120px;
     font-family: fantasy;
     position: absolute;
+    z-index: 5;
 }
 
+.baloon {
+    left: 500px;
+    position: absolute;
+    z-index: 4;
+}
