@@ -58,3 +58,11 @@
     position: absolute;
     z-index: 4;
 }
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
