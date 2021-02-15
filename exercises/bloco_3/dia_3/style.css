@@ -22,3 +22,9 @@
 .border {
     border: 5px solid black;
 }
+
+.super-mario{
+    width: 300px;
+    position: absolute;
+}
+
