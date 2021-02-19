@@ -27,12 +27,41 @@ li em {
     font-weight: bold;
 }
 
-ul.linguagens li:nth-child(-n+3){
+.linguagens li:nth-child(-n+3){
     color: blue;
 }
 
-ul.linguagens li:nth-of-type(2), ul.linguagens li:nth-of-type(3){
+.linguagens li:nth-of-type(2), .linguagens li:nth-of-type(3){
     color:pink;
+}
+
+a{
+    text-decoration: none;
+}
+
+.aliados a:hover{
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.aliados .stack {
+    color: orange;
+}
+
+.aliados .w3{
+    color: green ;
+}
+
+.aliados .mdn {
+    color: black;
+}
+
+.aliados .devdocs{
+    color: rgb(255, 230, 0);
+}
+
+.aliados .trybe {
+    color: rgb(55, 168, 80);
 }
 
 /*
