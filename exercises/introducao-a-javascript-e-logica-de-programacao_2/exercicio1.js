@@ -25,3 +25,9 @@ else{
     console.log("Valor menor ou igual a 20");
 }
 
+//printing the greater value
+let maior=0;
+for(i=0; i<numbers.length; i++){
+    if(numbers[i]>maior) maior = numbers[i];
+}
+console.log("Maior valor:", maior);
