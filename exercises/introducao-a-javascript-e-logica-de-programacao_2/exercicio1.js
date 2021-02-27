@@ -14,4 +14,14 @@ for(i=0 ; i<numbers.length; i++){
 console.log("Soma: ", contador);
 
 //print average
-console.log(contador/numbers.length);
+let media = contador/numbers.length;
+console.log("Media:", media);
+
+//print if average is more or less than 20
+if(media>20){
+    console.log("Valor maior que 20");
+}
+else{
+    console.log("Valor menor ou igual a 20");
+}
+
