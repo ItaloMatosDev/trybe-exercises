@@ -31,3 +31,12 @@ for(i=0; i<numbers.length; i++){
     if(numbers[i]>maior) maior = numbers[i];
 }
 console.log("Maior valor:", maior);
+
+//printing total of even numbers in array
+let contadorImpar = 0;
+for(i=0; i<numbers.length; i++){
+    if(numbers[i]%2 != 0) contadorImpar++; 
+}
+
+if(contadorImpar==0) console.log("Nenhum valor impar encontrado")
+else console.log("Total de numeros impares: ", contadorImpar);
