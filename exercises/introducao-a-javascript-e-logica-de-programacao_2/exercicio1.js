@@ -40,3 +40,18 @@ for(i=0; i<numbers.length; i++){
 
 if(contadorImpar==0) console.log("Nenhum valor impar encontrado")
 else console.log("Total de numeros impares: ", contadorImpar);
+
+//printing the lesser number in array
+let menor = numbers[0];
+for(i=0; i<numbers.length; i++){
+    if(numbers[i]<menor) menor = numbers[i];
+}
+console.log("Menor: "+menor);
+
+
+//array with 25 elements
+let vetor = [];
+for(i=0; i<25; i++){
+    vetor[i] = i+1;
+}
+console.log(vetor);
